@@ -201,3 +201,40 @@ msgstr "最小数据包大小，MPU（byte）; 在以太网中需要>0："
 #: usr/lib/lua/luci/model/cbi/sqm.lua:242
 msgid "Which linklayer adaptation mechanism to use; for testing only"
 msgstr "使用哪个链路适应机制; 仅用于测试"
+
+#: translate help files
+msgid "This uses the cake qdisc as a replacement for both htb as shaper and fq_codel as leaf qdisc."
+msgstr "这个cake列队规则使用HTB作为过滤器，使用fq_codel作为叶列队规则。"
+
+msgid "This exercises cake's diffserv profile(s) as different "layers" of priority."
+msgstr "这个cake规则将不同的文件分为不同的“层次”优先级。"
+
+msgid "This script requires that cake is selected as qdisc, and forces its usage."
+msgstr "该脚本需要将该cake选为列队规则。"
+
+msgid "See: http://www.bufferbloat.net/projects/codel/wiki/Cake for more information"
+msgstr "请参阅：http://www.bufferbloat.net/projects/codel/wiki/Cake获取更多信息"
+
+msgid "This just uses the cake qdisc as a replacement for both htb as shaper and fq_codel as leaf qdisc."
+msgstr "这个cake列队规则使用HTB作为过滤器，使用fq_codel作为叶列队规则。"
+
+msgid "It just does not come any simpler than this, in other words it truely is a "piece of cake"."
+msgstr "它不会比这更简单，换句话说，它真的是“小菜一碟”。"
+
+msgid "This script requires that cake is selected as qdisc, and forces its usage."
+msgstr "该脚本需要将cake选为列队规则。"
+
+msgid "See: http://www.bufferbloat.net/projects/codel/wiki/Cake for more information"
+msgstr "请参阅：http://www.bufferbloat.net/projects/codel/wiki/Cake获取更多信息"
+
+msgid "BW-limited three-tier prioritisation scheme with your qdisc on each queue. (default)"
+msgstr "使用fq_codel列队规则在每个列队上进行三层优先级的带宽控制。（默认）"
+
+msgid "Simplest possible configuration: HTB rate limiter with your qdisc attached."
+msgstr "最简单的配置：使用带有HTB过滤器的列队规则来进行速率限制。"
+
+msgid "Simplest possible configuration (TBF): TBF rate limiter with your qdisc attached."
+msgstr "最简单的配置（TBF）：使用带有TBF过滤器的列队规则来进行速率限制。"
+
+msgid "TBF may give better performance than HTB on some architectures."
+msgstr "在某些架构上，TBF可能会比HTB提供更好的性能。"
