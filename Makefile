@@ -39,6 +39,28 @@ endef
 define Build/Compile
 endef
 
+define Package/luci-i18n-sqm/preinst
+#!/bin/sh
+if [ -z "$${IPKG_INSTROOT}" ]; then
+	if [ -f "/usr/lib/sqm/layer_cake.qos.help" ]; then
+		rm /usr/lib/sqm/layer_cake.qos.help
+	fi
+	if [ -f "/usr/lib/sqm/piece_of_cake.qos.help" ]; then
+		rm /usr/lib/sqm/piece_of_cake.qos.help
+	fi
+	if [ -f "/usr/lib/sqm/simple.qos.help" ]; then
+		rm /usr/lib/sqm/simple.qos.help
+	fi
+	if [ -f "/usr/lib/sqm/simplest.qos.help" ]; then
+		rm /usr/lib/sqm/simplest.qos.help
+	fi
+	if [ -f "/usr/lib/sqm/simplest_tbf.qos.help" ]; then
+		rm /usr/lib/sqm/simplest_tbf.qos.help
+	fi	
+fi
+exit 0
+endef
+
 define Package/luci-i18n-sqm/install
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n
 	$(INSTALL_DIR) $(1)/usr/lib/sqm
