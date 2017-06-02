@@ -110,7 +110,7 @@ msgid "Queue setup script"
 msgstr "队列脚本设置"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:129
-msgid "Show and Use Advanced Configuration."
+msgid "Show and Use Advanced Configuration"
 msgstr "选中该复选框显示高级配置"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:133
