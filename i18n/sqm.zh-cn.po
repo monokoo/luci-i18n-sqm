@@ -114,21 +114,21 @@ msgid "Show and Use Advanced Configuration"
 msgstr "选中该复选框显示高级配置"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:133
-msgid "Squash DSCP on inbound packets (ingress):"
-msgstr "入站数据包压缩DSCP:"
+msgid "Squash DSCP on inbound packets (ingress)"
+msgstr "入站数据包压缩DSCP"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:140
-msgid "Ignore DSCP on ingress:"
+msgid "Ignore DSCP on ingress"
 msgstr "忽略入站DSCP"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:147
 msgid ""
-"Explicit congestion notification (ECN) status on inbound packets (ingress):"
+"Explicit congestion notification (ECN) status on inbound packets (ingress)"
 msgstr "入站数据包的显式拥塞通知（ECN）状态"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:154
 msgid ""
-"Explicit congestion notification (ECN) status on outbound packets (egress)."
+"Explicit congestion notification (ECN) status on outbound packets (egress)"
 msgstr "出站数据包的显式拥塞通知（ECN）状态"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:161
@@ -136,12 +136,15 @@ msgid "Show and Use Dangerous Configuration"
 msgstr "选中该复选框显示危险配置"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:166
-msgid "Hard limit on ingress queues; leave empty for default."
-msgstr "入站队列严格限制；留空为默认"
+msgid "Hard limit on ingress queues"
+msgstr "入站队列严格限制"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:173
-msgid "Hard limit on egress queues; leave empty for default."
-msgstr "出站队列严格限制；留空为默认"
+msgid "Hard limit on egress queues"
+msgstr "出站队列严格限制"
+
+msgid "leave empty for default"
+msgstr "留空为默认"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:180
 msgid "Latency target for ingress"
@@ -205,5 +208,8 @@ msgid "MPU(byte), needs to be > 0 for ethernet size tables"
 msgstr "MPU(byte),在以太网中需要>0"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:242
-msgid "Which linklayer adaptation mechanism to use; for testing only"
-msgstr "使用哪个链路适应机制; 仅用于测试"
+msgid "Which linklayer adaptation mechanism to use"
+msgstr "使用哪个链路适应机制"
+
+msgid "for testing only"
+msgstr "仅用于测试"
