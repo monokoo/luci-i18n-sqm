@@ -122,13 +122,11 @@ msgid "Ignore DSCP on ingress"
 msgstr "忽略入站DSCP"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:147
-msgid ""
-"Explicit congestion notification (ECN) status on inbound packets (ingress)"
+msgid "Explicit congestion notification (ECN) status on inbound packets (ingress)"
 msgstr "入站数据包的显式拥塞通知（ECN）状态"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:154
-msgid ""
-"Explicit congestion notification (ECN) status on outbound packets (egress)"
+msgid "Explicit congestion notification (ECN) status on outbound packets (egress)"
 msgstr "出站数据包的显式拥塞通知（ECN）状态"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:161
@@ -151,14 +149,11 @@ msgid "Latency target for ingress"
 msgstr "入站延迟目标"
 
 msgid "e.g 5ms [units: s, ms, or us]; leave empty for automatic selection, put in the word default for the qdisc's default."
-msgstr "例如 5ms [单位: s, ms, 或 us]；留空为自动选择，default为列队规则默认值。"
+msgstr "例如 5ms [单位: s, ms, 或 us]；留空为自动选择，填入default表示列队规则默认值。"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:185
 msgid "Latency target for egress"
 msgstr "出站延迟目标"
-
-msgid "e.g. 5ms [units: s, ms, or us]; leave empty for automatic selection, put in the word default for the qdisc's default.""
-msgstr "例如 5ms [单位: s, ms, 或 us]；留空为自动选择，default为列队规则默认值。"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:192
 msgid "Advanced option string to pass to the ingress queueing disciplines"
