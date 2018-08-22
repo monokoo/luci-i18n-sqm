@@ -83,7 +83,7 @@ msgstr "设置为0关闭出口控制"
 msgid "Create log file for this SQM instance"
 "创建SQM日志文件"
 
-msgid "The log file is under /var/run/sqm/${Inerface_name}.debug.log. Make sure to delete log files manually."
+msgid "The log file is under /var/run/sqm/${Interface_name}.debug.log. Make sure to delete log files manually."
 msgstr "日志文件位于/var/run/sqm/目录下。请务必手动删除日志文件。"
 
 #: usr/lib/lua/luci/model/cbi/sqm.lua:82
